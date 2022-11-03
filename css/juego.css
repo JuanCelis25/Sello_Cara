@@ -1,0 +1,246 @@
+body{
+      margin: 0%;
+      background-color: aliceblue;
+}
+#container_family{
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Asap', sans-serif;
+}
+.conten{
+      display: flex;
+      flex-direction: column;
+      width: 17em;
+      box-shadow: 1px 2px 15px black;
+      border: none;
+      border-radius: 15px;
+      padding: 5%;
+}
+.score{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 120%;
+}
+.play{
+      display: flex;
+      width: 100%;
+      gap: 5%;
+}.ganar, .perder, .intento{
+      display: flex;
+      flex-direction: column;
+      width: 45%;
+      align-items: center;
+}.ganar{
+      color: rgb(103, 225, 103);
+}
+.perder{
+      color: red;
+}
+.intento{
+      color: cornflowerblue;
+}
+#h1{
+      font-size: 1.3em;
+}
+#titulo{
+      display: flex;
+      justify-content: center;
+      margin-top: 5%;
+      font-family: cursive;
+      font-size: 80%;
+}
+.labe{
+      display: flex;
+      align-self: center;
+      justify-content: center;
+      margin-bottom: 3%;
+}
+label{
+      font-size: 20px;
+      font-family: 'Asap', sans-serif;
+}
+.btn:hover{
+      transition: 0.5s;
+      border-radius: 35px;
+}
+#inpu{
+      display: flex;
+      align-self: center;
+      justify-content: center;
+      flex-direction: column;
+}
+#inpu button{
+      margin-top: 3%;
+      margin-bottom: 4%;
+      height: 2.5em;
+      font-size: 90%;
+      background-color: darkgray;
+      border: none;
+      border-radius: 13px;
+}
+input{
+      font-family: 'Asap', sans-serif;
+      height: 2em;
+      margin-bottom: 5%;
+      border-radius: 10px;
+}
+.termina{
+      display: flex;
+      justify-content: center;
+      margin-top: 7%;
+}
+#terminarr{
+      width: 84.5%;
+      height: 2.5em;
+      font-size: 100%;
+      border-radius: 10px;
+      border: none;
+      background-color: thistle;
+}
+.moneda{
+      width: 8em;
+      height: 8em;  
+      margin-left: 25%;  
+      transform-style: preserve-3d;   
+}
+.moneda div{
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      position: absolute;
+}
+.moneda{
+      width: 10em;
+      height: 10em;  
+      margin-left: 20%;  
+      transform-style: preserve-3d;   
+}
+.moneda div{
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      position: absolute;
+}
+.cara{
+      border-radius: 50%;
+      background: url('../img/nueva_1000_cara_235.png');
+      background-size: contain;
+     
+}
+.sello{
+     background: url(../img/nueva_1000_sello_235.png);
+     background-size: contain;
+      border-radius: 50%;
+      transform: rotateY(-175deg);
+}
+.animate{
+      animation: flipHeads 600s; 
+}
+
+@keyframes flipHeads{
+      from{
+            transform: rotateY(0deg);
+      }
+      to{
+            transform: rotateY(95000deg);
+      }
+}
+
+@media screen and (min-width: 480px) {
+      .conten{
+            display: flex;
+            flex-direction: column;
+            width: 25em;
+            box-shadow: 1px 1px 9px black;
+            border: none;
+            padding: 5%;
+      }
+      #inpu{
+            display: flex;
+            align-self: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 84.5%;
+      }
+      .moneda{
+            width: 10em;
+            height: 10em;  
+            margin-left: 30%;  
+            transform-style: preserve-3d;   
+      }    
+}
+@media screen and (min-width: 720px) {
+      .conten{
+            display: flex;
+            flex-direction: column;
+            width: 35em;
+            box-shadow: 1px 1px 9px black;
+            border: none;
+            padding: 5%;
+      }
+      #inpu{
+            display: flex;
+            align-self: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 84.5%;
+      }
+      .moneda{
+            width: 10em;
+            height: 10em;  
+            margin-left: 36%;  
+            transform-style: preserve-3d;   
+      }     
+}
+@media screen and (min-width: 1024px) {
+      .conten{
+            display: flex;
+            flex-direction: column;
+            width: 38em;
+            box-shadow: 1px 1px 9px black;
+            border: none;
+            padding: 5%;
+      }
+      #inpu{
+            display: flex;
+            align-self: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 84.5%;
+      }
+      .moneda{
+            width: 10em;
+            height: 10em;  
+            margin-left: 36%;  
+            transform-style: preserve-3d;   
+      }   
+}
+@media screen and (min-width: 1200px) {
+      .conten{
+            display: flex;
+            flex-direction: column;
+            width: 38em;
+            box-shadow: 1px 1px 9px black;
+            border: none;
+            padding: 5%;
+      }
+      #inpu{
+            display: flex;
+            align-self: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 84.5%;
+      }
+      .moneda{
+            width: 10em;
+            height: 10em;  
+            margin-left: 36%;  
+            transform-style: preserve-3d;   
+      }   
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="css/juego.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container_family" class="container_family">
+        <div class="conten">
+              <div id="titulo">
+                    <h1>Juego del Carisellazo</h1>
+              </div class="ti">
+                <div class="score" id="score">
+                    <h2>Score</h2>
+                </div>
+                <div class="play" id="play" >   
+                    <div class="ganar" >
+                        <h1 id="h1">Ganadas</h1>
+                        <p id="ganar"></p>
+                    </div>
+                    <div class="intento" >
+                        <h1 id="h1">Intentos</h1>
+                        <p id="intento"></p>
+                    </div>
+                    <div class="perder" >
+                        <h1 id="h1">Perdidas</h1>
+                        <p id="perder"></p>
+                    </div>
+                </div> 
+                    <div id="moneda" class="moneda animate">
+                          <div id="cara" class="cara"></div>
+                          <div id="sello" class="sello"></div>
+                    </div>
+                             
+                    <div id="labe" class="labe">
+                          <label for="btn">Ingrese el dinero a apostar:</label>
+                    </div>
+                    <div class="input-group mb-3" id="inpu">
+                          <input type="text"  id="inputt" class="form-control" aria-label="Recipient's username" aria-describedby="button-addon2" >
+                          <label for="btn">Elija el lado de la moneda</label>
+                          <button class="btn" type="submit" id="button-addon1">Cara</button>
+                          <button class="btn" type="submit" id="button-addon2">Sello</button>
+                    </div>
+                    <div id="termina" class="termina">
+                          <button id="terminarr" class="btn ">Terminar</button>
+                    </div>
+        </div>      
+  </div>  
+    <script src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2"></script>
+</body>
+</html>
+
